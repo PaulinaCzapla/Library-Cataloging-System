@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: LibraryTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.01 s <<< FAILURE! - in LibraryTest
+LibraryTest.testGetBooksListReadOnly()  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalAccessError: class LibraryTest (in unnamed module @0x32cf48b7) cannot access class pl.polsl.librarysystemui.model.Library (in module pl.polsl.librarysystemui) because module pl.polsl.librarysystemui does not export pl.polsl.librarysystemui.model to unnamed module @0x32cf48b7
+	at LibraryTest.testGetBooksListReadOnly(LibraryTest.java:136)
+
+LibraryTest.testAddNewNullBook()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalAccessError: class LibraryTest (in unnamed module @0x32cf48b7) cannot access class pl.polsl.librarysystemui.model.Library (in module pl.polsl.librarysystemui) because module pl.polsl.librarysystemui does not export pl.polsl.librarysystemui.model to unnamed module @0x32cf48b7
+	at LibraryTest.testAddNewNullBook(LibraryTest.java:72)
+
+LibraryTest.testDeleteNullBook()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalAccessError: class LibraryTest (in unnamed module @0x32cf48b7) cannot access class pl.polsl.librarysystemui.model.Library (in module pl.polsl.librarysystemui) because module pl.polsl.librarysystemui does not export pl.polsl.librarysystemui.model to unnamed module @0x32cf48b7
+	at LibraryTest.testDeleteNullBook(LibraryTest.java:244)
+
+LibraryTest.testResetId()  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalAccessError: class LibraryTest (in unnamed module @0x32cf48b7) cannot access class pl.polsl.librarysystemui.model.Library (in module pl.polsl.librarysystemui) because module pl.polsl.librarysystemui does not export pl.polsl.librarysystemui.model to unnamed module @0x32cf48b7
+	at LibraryTest.testResetId(LibraryTest.java:86)
+

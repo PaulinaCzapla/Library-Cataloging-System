@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"m":"pl.polsl.librarysystemui","l":"pl.polsl.librarysystemui"},{"m":"pl.polsl.librarysystemui","l":"pl.polsl.librarysystemui.model"}]

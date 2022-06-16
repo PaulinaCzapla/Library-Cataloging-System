@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="704.0" prefWidth="1212.0" style="-fx-background-color: #082032;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.librarysystemui.DeleteResourceController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="171.0" minWidth="0.0" prefWidth="28.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="1136.0" minWidth="10.0" prefWidth="1121.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="399.0" minWidth="0.0" prefWidth="51.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="230.0" minHeight="10.0" prefHeight="177.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="230.0" minHeight="10.0" prefHeight="66.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="294.0" minHeight="10.0" prefHeight="75.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="360.0" minHeight="10.0" prefHeight="71.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="357.0" minHeight="10.0" prefHeight="316.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <TableView fx:id="table" prefHeight="102.0" prefWidth="1125.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="100.0" text="ID" />
+          <TableColumn fx:id="author" prefWidth="269.0" text="Author" />
+            <TableColumn fx:id="title" prefWidth="335.0" text="Title" />
+            <TableColumn fx:id="publishingHouse" prefWidth="238.0" text="Publishing house" />
+            <TableColumn fx:id="releaseDateText" prefWidth="182.0" text="Date of release" />
+        </columns>
+      </TableView>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0" GridPane.columnIndex="1">
+         <children>
+            <Label text="Enter resource ID:" textFill="#f8f8f8">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <TextField fx:id="textField" prefHeight="31.0" prefWidth="149.0" />
+            <Button fx:id="searchButton" mnemonicParsing="false" onAction="#search" prefHeight="31.0" prefWidth="174.0" style="-fx-background-color: #334756;" text="Search" textFill="#f5f5f5">
+               <font>
+                  <Font size="21.0" />
+               </font></Button>
+         </children>
+      </HBox>
+      <GridPane GridPane.columnIndex="1" GridPane.rowIndex="4">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="470.0" minWidth="10.0" prefWidth="470.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="368.0" minWidth="10.0" prefWidth="200.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="455.0" minWidth="10.0" prefWidth="455.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="returnButton" mnemonicParsing="false" onAction="#switchToMainMenu" prefHeight="53.0" prefWidth="203.0" style="-fx-background-color: #334756;" text="Return" textFill="#f5f5f5" GridPane.rowIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+            <Button fx:id="deleteResourceButton" mnemonicParsing="false" onAction="#deleteResource" prefHeight="59.0" prefWidth="200.0" style="-fx-background-color: #FF4C29;" text="Delete resource" textFill="WHITE" GridPane.columnIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+         </children>
+      </GridPane>
+   </children>
+</GridPane>

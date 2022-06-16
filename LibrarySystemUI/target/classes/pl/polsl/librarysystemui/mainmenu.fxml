@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="711.0" prefWidth="1199.0" spacing="40.0" style="-fx-background-color: #082032;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.librarysystemui.MainMenuController">
+   <children>
+      <Label prefHeight="111.0" prefWidth="537.0" text="Library Resources System" textAlignment="CENTER" textFill="#e1e1e1">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#switchDisplayAllResources" prefHeight="60.0" prefWidth="400.0" style="-fx-background-color: #334756;" text="Display all library resources" textFill="#e4e4e4">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#switchSearchLibraryResources" prefHeight="60.0" prefWidth="400.0" style="-fx-background-color: #334756;" text="Search library resources" textFill="#e4e4e4">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#switchAddNewResource" prefHeight="60.0" prefWidth="400.0" style="-fx-background-color: #334756;" text="Add new resources" textFill="#e4e4e4">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#switchDeleteResource" prefHeight="60.0" prefWidth="400.0" style="-fx-background-color: #334756;" text="Delete resources" textFill="#e4e4e4">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#exit" prefHeight="60.0" prefWidth="400.0" style="-fx-background-color: #FF4C29;" text="Exit" textFill="#e4e4e4">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>

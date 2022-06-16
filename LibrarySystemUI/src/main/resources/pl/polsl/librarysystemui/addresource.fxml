@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER_RIGHT" prefHeight="716.0" prefWidth="1210.0" style="-fx-background-color: #082032;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.polsl.librarysystemui.AddResourceController">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="561.0" minWidth="10.0" prefWidth="305.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="561.0" minWidth="10.0" prefWidth="259.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="402.0" minWidth="0.0" prefWidth="65.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="559.0" minWidth="10.0" prefWidth="276.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="559.0" minWidth="10.0" prefWidth="313.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="181.0" minHeight="10.0" prefHeight="169.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="181.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="162.0" minHeight="6.0" prefHeight="74.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="306.0" minHeight="10.0" prefHeight="41.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="347.0" minHeight="10.0" prefHeight="63.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="400.0" minHeight="10.0" prefHeight="331.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <TextField fx:id="titleFiled" prefHeight="31.0" prefWidth="470.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <TextField fx:id="authorField" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <TextField fx:id="publishingHouseField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Label alignment="BASELINE_LEFT" contentDisplay="BOTTOM" text="Title" textAlignment="CENTER" textFill="#ebebeb" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" contentDisplay="BOTTOM" prefHeight="30.0" prefWidth="92.0" text="Author" textAlignment="CENTER" textFill="#ebebeb" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" contentDisplay="BOTTOM" text="Publishing house" textAlignment="CENTER" textFill="#ebebeb" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="BASELINE_LEFT" contentDisplay="BOTTOM" text="Date of release" textAlignment="CENTER" textFill="#ebebeb" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#switchMainMenu" prefHeight="57.0" prefWidth="271.0" style="-fx-background-color: #334756;" text="Return" textFill="#e1e1e1" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+         <children>
+            <Button mnemonicParsing="false" onAction="#addResource" prefHeight="57.0" prefWidth="271.0" style="-fx-background-color: #FF4C29;" text="Add resource" textFill="#f5f5f5">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Label fx:id="label" alignment="BOTTOM_CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="275.0" textAlignment="CENTER" textFill="#20dd46">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <TextField fx:id="dateOfRelease" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+   </children>
+</GridPane>

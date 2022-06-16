@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.ValidatorTest" time="0.018" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\pauli\Documents\NetBeansProjects\LibrarySystemUI\target\test-classes;C:\Users\pauli\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\pauli\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\pauli\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\pauli\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\pauli\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pauli\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pauli\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\pauli\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\pauli\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\pauli\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\pauli\AppData\Local\Temp\surefire17889865638793367841 2021-12-10T16-17-44_193-jvmRun1 surefire5862103921869651045tmp surefire_011202563618323190958tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="tests.BookTest,tests.ValidatorTest,tests.DateTest,tests.LibraryTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\pauli\Documents\NetBeansProjects\LibrarySystemUI\target\test-classes;C:\Users\pauli\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\pauli\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\pauli\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\pauli\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\pauli\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pauli\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pauli\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\pauli\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\pauli\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\pauli\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pauli"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="C:\Users\pauli\Documents\NetBeansProjects\LibrarySystemUI\target\classes;C:\Users\pauli\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13-win.jar;C:\Users\pauli\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\pauli\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13-win.jar;C:\Users\pauli\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13-win.jar;C:\Users\pauli\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13-win.jar;C:\Users\pauli\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\pauli\Documents\NetBeansProjects\LibrarySystemUI"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\pauli\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M3\surefire-booter-3.0.0-M3.jar;C:\Users\pauli\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M3\surefire-api-3.0.0-M3.jar;C:\Users\pauli\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M3\surefire-logger-api-3.0.0-M3.jar;C:\Users\pauli\Documents\NetBeansProjects\LibrarySystemUI\target\test-classes;C:\Users\pauli\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\pauli\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\pauli\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\pauli\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\pauli\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pauli\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pauli\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\pauli\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\pauli\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\pauli\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\pauli\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\3.0.0-M3\surefire-junit-platform-3.0.0-M3.jar;C:\Users\pauli\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M3\common-java5-3.0.0-M3.jar;C:\Users\pauli\.m2\repository\org\junit\platform\junit-platform-launcher\1.3.1\junit-platform-launcher-1.3.1.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="user.name" value="pauli"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.5\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\pauli\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\pauli\AppData\Local\Temp\"/>
+    <property name="java.version" value="11"/>
+    <property name="user.dir" value="C:\Users\pauli\Documents\NetBeansProjects\LibrarySystemUI"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\amzi\apls\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\Git LFS;C:\Program Files\doxygen\bin;C:\Program Files (x86)\Visual Leak Detector\bin\Win32;C:\Program Files (x86)\Visual Leak Detector\bin\Win64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\pauli\AppData\Local\Microsoft\WindowsApps;C:\Users\pauli\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Dr. Memory\bin\;C:\Users\pauli\AppData\Local\Microsoft\WindowsApps;C:\Users\pauli\.dotnet\tools;C:\Users\pauli\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testValidateNullDate" classname="tests.ValidatorTest" time="0"/>
+  <testcase name="testValidateNullText" classname="tests.ValidatorTest" time="0"/>
+  <testcase name="testValidateDate{String, boolean}[1]" classname="tests.ValidatorTest" time="0"/>
+  <testcase name="testValidateDate{String, boolean}[2]" classname="tests.ValidatorTest" time="0.001"/>
+  <testcase name="testValidateDate{String, boolean}[3]" classname="tests.ValidatorTest" time="0.001"/>
+  <testcase name="testValidateDate{String, boolean}[4]" classname="tests.ValidatorTest" time="0"/>
+  <testcase name="testValidateDate{String, boolean}[5]" classname="tests.ValidatorTest" time="0"/>
+  <testcase name="testValidateDate{String, boolean}[6]" classname="tests.ValidatorTest" time="0"/>
+  <testcase name="testValidateDate{String, boolean}[7]" classname="tests.ValidatorTest" time="0"/>
+  <testcase name="testValidateDate{String, boolean}[8]" classname="tests.ValidatorTest" time="0"/>
+  <testcase name="testValidateText{String, boolean}[1]" classname="tests.ValidatorTest" time="0"/>
+  <testcase name="testValidateText{String, boolean}[2]" classname="tests.ValidatorTest" time="0"/>
+  <testcase name="testValidateText{String, boolean}[3]" classname="tests.ValidatorTest" time="0"/>
+  <testcase name="testValidateText{String, boolean}[4]" classname="tests.ValidatorTest" time="0"/>
+  <testcase name="testValidateText{String, boolean}[5]" classname="tests.ValidatorTest" time="0"/>
+  <testcase name="testValidateText{String, boolean}[6]" classname="tests.ValidatorTest" time="0"/>
+</testsuite>
