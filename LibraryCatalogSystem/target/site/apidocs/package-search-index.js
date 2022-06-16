@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"pl.polsl.librarycatalogsystem.controller"},{"l":"pl.polsl.librarycatalogsystem.exceptions"},{"l":"pl.polsl.librarycatalogsystem.main"},{"l":"pl.polsl.librarycatalogsystem.model"},{"l":"pl.polsl.librarycatalogsystem.view"}]
