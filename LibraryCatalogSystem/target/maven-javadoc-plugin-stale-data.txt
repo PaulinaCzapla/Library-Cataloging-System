@@ -1,0 +1,67 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/pauli/Documents/NetBeansProjects/LibraryCatalogSystem/target/classes;C:/Users/pauli/Documents/NetBeansProjects/LibraryCatalogSystem/target/test-classes;C:/Users/pauli/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar;C:/Users/pauli/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar;C:/Users/pauli/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar;C:/Users/pauli/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar;C:/Users/pauli/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar;C:/Users/pauli/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar;C:/Users/pauli/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar;C:/Users/pauli/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'C:/Users/pauli/Documents/NetBeansProjects/LibraryCatalogSystem/src/test/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/pauli/Documents/NetBeansProjects/LibraryCatalogSystem/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'My Test API for LibraryCatalogSystem 1.0-SNAPSHOT'
+-link
+'../apidocs'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/pauli/Documents/NetBeansProjects/LibraryCatalogSystem/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'My Test API for LibraryCatalogSystem 1.0-SNAPSHOT'
+pl.polsl.librarycatalogsystem.tests
+'C:/Users/pauli/Documents/NetBeansProjects/LibraryCatalogSystem/src/test/java/pl/polsl/librarycatalogsystem/tests/BookTest.java'
+'C:/Users/pauli/Documents/NetBeansProjects/LibraryCatalogSystem/src/test/java/pl/polsl/librarycatalogsystem/tests/DateTest.java'
+'C:/Users/pauli/Documents/NetBeansProjects/LibraryCatalogSystem/src/test/java/pl/polsl/librarycatalogsystem/tests/LibraryTest.java'
+'C:/Users/pauli/Documents/NetBeansProjects/LibraryCatalogSystem/src/test/java/pl/polsl/librarycatalogsystem/tests/package-info.java'
+'C:/Users/pauli/Documents/NetBeansProjects/LibraryCatalogSystem/src/test/java/pl/polsl/librarycatalogsystem/tests/ValidatorTest.java'
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\classes = 1637252977503
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\test-classes = 1637258317148
+C:\Users\pauli\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar = 1636382844722
+C:\Users\pauli\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar = 1636382844738
+C:\Users\pauli\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar = 1636382844740
+C:\Users\pauli\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar = 1636382844809
+C:\Users\pauli\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar = 1636382845955
+C:\Users\pauli\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar = 1636382845812
+C:\Users\pauli\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar = 1636382845813
+C:\Users\pauli\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar = 1634735654075
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\src\test\java = 1637258314524
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\allclasses-index.html = 1637259114182
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\allclasses.html = 1637259114197
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\allpackages-index.html = 1637259114187
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\constant-values.html = 1637259114058
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\deprecated-list.html = 1637259114194
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\element-list = 1637259114016
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\help-doc.html = 1637259114208
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\index-all.html = 1637259114170
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\index.html = 1637259114200
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\member-search-index.js = 1637259114164
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\member-search-index.zip = 1637259114166
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\overview-tree.html = 1637259114118
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\package-search-index.js = 1637259114152
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\package-search-index.zip = 1637259114157
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\script.js = 1637259114215
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\search.js = 1637259114220
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\stylesheet.css = 1637259114211
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\type-search-index.js = 1637259114159
+C:\Users\pauli\Documents\NetBeansProjects\LibraryCatalogSystem\target\site\testapidocs\type-search-index.zip = 1637259114161
