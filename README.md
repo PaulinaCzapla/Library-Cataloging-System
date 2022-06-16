@@ -6,8 +6,8 @@ Implementation:
 - unit tests
 - exception handling
 - created in three versions: 
-    - console version (branch "console version"),
-    - version with GUI created in Java FX Scene Builder (branch "gui-version"),
+    - desktop console version (branch "console version"),
+    - desktop version with GUI created in JavaFX Scene Builder (branch "gui-version"),
     - web version created using servlets (branch "web-version").
 
 Features: 
